@@ -2,12 +2,12 @@
   "namespace": "SoonColorpicker",
   "fsNamespace": "soon-colorpicker",
   "loader": "../soon-colorpicker.js",
-  "core": "soon-colorpicker.kwijbony.js",
-  "corePolyfilled": "soon-colorpicker.vceajjzj.js",
+  "core": "soon-colorpicker.core.js",
+  "corePolyfilled": "soon-colorpicker.core.pf.js",
   "components": {
     "soon-colorpicker": {
       "bundleIds": {
-        "$": "hhnp16ue"
+        "$": "soon-colorpicker"
       },
       "encapsulation": "shadow"
     }
