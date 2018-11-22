@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <title>Web Component Colorpicker with Stenciljs</title>
-  <script src="/build/soon-colorpicker.js"></script>
+  <script src="./build/soon-colorpicker.js"></script>
   <style>
     :root {
       --soon-font-family: 'Roboto', 'Helvetica Neue', sans-serif;
@@ -32,23 +32,23 @@
 </head>
 
 <body>
-  <!--<h1>soon-colorpicker</h1>-->
-  <soon-colorpicker id="colorpicker-data" image="/build/soon-colorpicker/assets/text-color.png" style="margin-right: 8px"></soon-colorpicker>
+  <h1>soon-colorpicker</h1>
+  <soon-colorpicker id="colorpicker-data" image="./build/soon-colorpicker/assets/text-color.png" style="margin-right: 8px"></soon-colorpicker>
   <span id="color-container"></span>
   <br />
   <br />
-  <!--<soon-colorpicker image="/build/soon-colorpicker/assets/text-color.png" value="#000000" style="margin-right: 8px"></soon-colorpicker>
+  <soon-colorpicker image="./build/soon-colorpicker/assets/text-color.png" value="#000000" style="margin-right: 8px"></soon-colorpicker>
   <span>Default value #000000</span>
   <br />
   <br />
-  <soon-colorpicker image="/build/soon-colorpicker/assets/text-color.png" id="colorpicker-reset" value="#f4282d" style="margin-right: 8px"></soon-colorpicker>
+  <soon-colorpicker image="./build/soon-colorpicker/assets/text-color.png" id="colorpicker-reset" value="#f4282d" style="margin-right: 8px"></soon-colorpicker>
   <span>Reset all 5sec</span>
   <br />
   <br />
-  <soon-colorpicker image="/build/soon-colorpicker/assets/other-palette.png" style="margin-right: 8px"></soon-colorpicker>
+  <soon-colorpicker image="./build/soon-colorpicker/assets/other-palette.png" style="margin-right: 8px"></soon-colorpicker>
   <span>Custom palette image</span>
   <hr />
-  -->
+
 
   <script>
     var colorPicker = document.getElementById('colorpicker-data');
