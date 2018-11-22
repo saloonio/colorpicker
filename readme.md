@@ -8,7 +8,7 @@ A simple and customizable webcomponent.
 
 ## Using this component
 
-̀```HTML
+̀``` HTML
 
  <h1>soon-colorpicker</h1>
   <soon-colorpicker id="colorpicker-data" image="/build/soon-colorpicker/assets/text-color.png" style="margin-right: 8px"></soon-colorpicker>
